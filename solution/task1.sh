@@ -1,2 +1,3 @@
-grep "дверь" ./data/pushkin.txt -c
+#!bin/bash
+grep -o "дверь" ./data/pushkin.txt | wc -l
 
