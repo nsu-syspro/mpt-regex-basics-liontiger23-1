@@ -1,0 +1,1 @@
+sed -E "s/([^ ]*) ([^ ]*)(?: (.*))?,(.*)/\1 \2 (\4)/g" data/students.csv > data/students.txt
